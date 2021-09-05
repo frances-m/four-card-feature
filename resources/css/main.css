@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.attribution, header p, header h1, header {
+  font-family: poppins, sans-serif;
+  font-weight: 200;
+}
+
+.card-container .card p, .card-container .card h2 {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+}
+
+header h1 strong {
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  margin: 0 auto;
+  width: 31.5rem;
+}
+
+header {
+  text-align: center;
+  padding-top: 9rem;
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 2.41rem;
+  margin-bottom: 1.6rem;
+  color: #4c4e61;
+}
+header h1 strong {
+  display: block;
+}
+header p {
+  font-size: 1.6rem;
+  color: #a3a5ae;
+  margin-bottom: 7.9rem;
+}
+
+.card-container .card {
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  height: 21.8rem;
+  width: 100%;
+  margin-bottom: 2.9rem;
+  box-shadow: 0 1rem 2rem -1rem #a3a5ae;
+}
+.card-container .card .card-top {
+  border-bottom: 0.4rem solid black;
+  border-left: 0.2rem solid transparent;
+  border-right: 0.2rem solid transparent;
+  height: 0;
+  width: 100%;
+  position: relative;
+  top: -0.4rem;
+}
+.card-container .card #supervisor-top {
+  border-bottom-color: #45d3d3;
+}
+.card-container .card #team-builder-top {
+  border-bottom-color: #ea5353;
+}
+.card-container .card #karma-top {
+  border-bottom-color: #fcaf4a;
+}
+.card-container .card #calculator-top {
+  border-bottom-color: #549ef2;
+}
+.card-container .card h2 {
+  margin-left: 2.7rem;
+  margin-bottom: 0.4rem;
+  margin-top: 1.9rem;
+  font-size: 2rem;
+  color: #4c4e61;
+}
+.card-container .card p {
+  margin-left: 2.7rem;
+  font-size: 1.35rem;
+  margin-bottom: 3rem;
+  line-height: 2.3rem;
+  color: #a3a5ae;
+}
+.card-container .card img {
+  margin-left: 22.9rem;
+  width: 5.8rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4c4e61;
+  margin: 3rem 0;
+}
+.attribution a {
+  color: #ea5353;
+  width: 600;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 320px) {
+  main {
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 1125px) {
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header {
+    width: 51.84rem;
+    padding-top: 7rem;
+    margin: 0 auto;
+    padding-top: 7.9rem;
+  }
+  header h1 {
+    font-size: 3.6rem;
+    margin-bottom: 1.7rem;
+  }
+  header h1 strong {
+    margin-top: -0.5rem;
+  }
+  header p {
+    font-size: 1.51rem;
+    margin-bottom: 6.7rem;
+    line-height: 2.45rem;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 34.5rem);
+    grid-column-gap: 3.3rem;
+    grid-template-rows: repeat(4, 10.6rem);
+    grid-row-gap: 3.3rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .card-container .card {
+    height: auto;
+    width: auto;
+    margin-bottom: 0;
+  }
+  .card-container .card h2 {
+    margin-bottom: 0.9rem;
+    margin-top: 2.3rem;
+    font-size: 2rem;
+  }
+  .card-container .card p {
+    font-size: 1.3rem;
+    margin-bottom: 3.8rem;
+    width: 80%;
+    font-weight: 200;
+  }
+  .card-container .card img {
+    margin-left: 25.7rem;
+    width: auto;
+  }
+  .card-container #supervisor {
+    grid-column: 1;
+    grid-row: 2/span 2;
+  }
+  .card-container #team-builder {
+    grid-column: 2;
+    grid-row: 1/span 2;
+  }
+  .card-container #karma {
+    grid-column: 2;
+    grid-row: 3/span 2;
+  }
+  .card-container #calculator {
+    grid-column: 3;
+    grid-row: 2/span 2;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
